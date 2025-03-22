@@ -6,3 +6,5 @@ gsettings set org.gnome.desktop.background picture-uri file:////home/BG.jpg
 echo -e "epitech_git" | ssh-keygen -t ed25519 -C "pierre.maciejewski@epitech.eu"
 cat epitech_git.pub
 rm epitech_git*
+git config --global user.email "pierre.maciejewski@epitech.eu"
+git config --global user.name "ILPinciatore"
